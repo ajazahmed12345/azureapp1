@@ -26,6 +26,7 @@ public class TowerOfHanoiService {
     }
 
     public List<String> solveTowerOfHanoi(Integer n, String from, String to, String aux){
+         steps.clear();
          solve(n, from, to, aux);
          return steps;
     }
