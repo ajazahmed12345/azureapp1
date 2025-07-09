@@ -14,6 +14,11 @@ public class AzurewebappApplication {
         return "Hello Ajaz! from the first Azure web app.";
     }
 
+    @GetMapping("/api/sudoku")
+    public String solveSudoku(){
+        return "Welcome to the Sudoku solver game.";
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(AzurewebappApplication.class, args);
     }
