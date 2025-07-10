@@ -12,11 +12,11 @@
 }
 
 .peg {
+  height: 300px;
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
   justify-content: flex-end;
-  height: 200px;
   width: 10px;
   background-color: #ccc;
   position: relative;
@@ -52,6 +52,36 @@
 .disk-4 {
   width: 100px;
   background-color: #9C27B0;
+}
+
+.disk-5 {
+  width: 110px;
+  background-color: #E91E63;
+}
+
+.disk-6 {
+  width: 120px;
+  background-color: #3F51B5;
+}
+
+.disk-7 {
+  width: 130px;
+  background-color: #00BCD4;
+}
+
+.disk-8 {
+  width: 140px;
+  background-color: #795548;
+}
+
+.disk-9 {
+  width: 150px;
+  background-color: #8BC34A;
+}
+
+.disk-10 {
+  width: 160px;
+  background-color: #FFEB3B;
 }
 
 .congrats-message {
