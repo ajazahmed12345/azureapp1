@@ -16,12 +16,12 @@ public class TowerOfHanoiService {
 
     public void solve(Integer n, String from, String to, String aux){
         if(n == 1){
-            steps.add("Move 1 from: " + from + " to: " + to);
+            steps.add("Move disk 1 from: " + from + " to: " + to);
             return;
         }
 
         solve(n-1, from, aux, to);
-        steps.add("Move "+ n +" from: " + from + " to: " + to);
+        steps.add("Move disk "+ n +" from: " + from + " to: " + to);
         solve(n-1, aux, to, from);
     }
 
